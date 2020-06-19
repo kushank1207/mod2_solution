@@ -17,6 +17,7 @@
     border: 2px solid #000;
     margin: 20px 0;
     padding-left: 10px;
+    background-color: lightgrey;
   }
 
   .box-heading {
@@ -30,7 +31,6 @@
   .box-heading {
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
-    background-color: grey;
   }
 
   .chicken-head {
