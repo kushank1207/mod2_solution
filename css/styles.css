@@ -25,10 +25,9 @@
     margin: 0;
     margin-left: auto;
     border: 2px solid;
+    border-top: 0;
+    border-right: 0;
     width: 30%;
-  }
-
-  .box-heading {
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
   }
