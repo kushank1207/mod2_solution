@@ -1,46 +1,62 @@
-@media (max-width: 767px) {
-  p {
-    font-family: 'Barlow', sans-serif;
+p {
+  font-family: 'Barlow', sans-serif;
+}
+
+.sections {
+  display: inline-block;
+}
+
+.heading {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
+
+.box {
+  border: 1px solid #000;
+  margin: 15px;
+  padding-left: 10px;
+  background-color: lightgrey;
+}
+
+.box-heading {
+  text-align: center;
+  margin: 0;
+  margin-left: auto;
+  border: 1px solid;
+  border-top: 0;
+  border-right: 0;
+  width: 30%;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+}
+
+.chicken-head {
+  background-color: pink;
+}
+
+.beef-head {
+  background-color: red;
+}
+
+.sushi-head {
+  background-color: yellow;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .chicken, .beef {
+    width: 50%;
   }
 
-  .sections {
-    display: inline-block;
+  .top-row {
+    display: flex;
+    flex-direction: row;
   }
+}
 
-  .heading {
-    text-align: center;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 700;
-  }
-
-  .box {
-    border: 1px solid #000;
-    margin: 20px 0;
-    padding-left: 10px;
-    background-color: lightgrey;
-  }
-
-  .box-heading {
-    text-align: center;
-    margin: 0;
-    margin-left: auto;
-    border: 1px solid;
-    border-top: 0;
-    border-right: 0;
-    width: 30%;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
-  }
-
-  .chicken-head {
-    background-color: pink;
-  }
-
-  .beef-head {
-    background-color: red;
-  }
-
-  .sushi-head {
-    background-color: yellow;
+@media (min-width: 992px) {
+  .sections, .top-row {
+    display: flex;
+    flex-direction: row;
   }
 }
